@@ -1,0 +1,200 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2015, 2:51:52 PM
+    Author     : acer
+*/
+#cursor1.range-slider .low-thumb {
+    -fx-background-color: #8498fa;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+
+}
+#cursor1.range-slider .high-thumb {
+    -fx-background-color:#8498fa;
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+#cursor1.range-slider .range-bar {
+    -fx-background-color: #8498fa;
+}
+#cursor2.range-slider .low-thumb {
+    -fx-pref-height:10;
+
+}
+#cursor2.range-slider .high-thumb {
+    -fx-pref-height:10;
+}
+#cursor2.range-slider .range-bar {
+    -fx-background-color:transparent;
+    -fx-pref-height:1;
+
+}
+#cursor2.range-slider .track {
+    -fx-pref-height:1;
+
+}
+.button {
+    -fx-background-color: #E9E8E8;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+.button:disabled {
+    -fx-background-color: #E9E8E8;
+    -fx-text-fill: #585858;
+    -fx-opacity: 1.0;
+}
+.button:hover{
+    -fx-background-color: #C1C0C0;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+.VBox{
+    -fx-background-repeat: no-repeat;
+    -fx-text-alignment: center;
+    -fx-alignment: CENTER;
+    -fx-wrap-text:true;
+    -fx-spacing: 6; 
+    -fx-text-fill: #093d72;
+    -fx-font-family: "Tahoma";
+    -fx-font-size: 11pt;
+}
+
+.label{
+    -fx-wrap-text:true;
+    -fx-text-alignment: center;
+    -fx-alignment: CENTER;
+    -fx-font-size: 8pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: #093d72;
+}
+
+.tooltip{
+    -fx-graphic-text-gap:10;
+    -fx-content-display:center;
+    -fx-text-alignment:justify;
+    -fx-wrap-text:true;
+}
+#bar .slider {
+    -fx-background-color:#FFFFFF;
+
+}
+
+#bar .thumb{
+    -fx-background-color: #F0F0F0;
+    -fx-border-radius: 00;
+    -fx-border-color:#F0F0F0;
+    -fx-pref-height: 0;
+    -fx-pref-width: 0;
+}   
+#bar .track{
+    -fx-background-color: transparent;
+    -fx-pref-width:0;
+
+}
+
+#bar .axis {
+    -fx-tick-label-fill: #000000;
+    -fx-tick-length: 4;
+
+
+}
+
+#line .chart {
+    -fx-padding: 0px;
+    -fx-background-color:#353535;
+}
+
+#line .chart-plot-background {
+    -fx-background-color: #353535;
+}
+#line .axis {
+    -fx-font-size: 1em;    
+    -fx-tick-label-fill: #FFFFFF;
+    -fx-font-family: Tahoma;
+    -fx-tick-length: 10;
+    -fx-minor-tick-length: 4;
+}
+#line .axis-label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 1em;
+
+}
+#line .chart-series-line {    
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+#line .axis-label:disabled {
+    -fx-text-fill: #000;
+    -fx-opacity: 0.5;
+}
+
+#line1 .chart-plot-background {
+    -fx-background-color: #1E3229;
+}
+
+#line .default-color0.chart-series-line { -fx-stroke: #C0AD03; }
+
+.axis {
+    -fx-font-size: 1em;    
+    -fx-tick-label-fill: #FFFFFF;
+    -fx-font-family: Tahoma;
+    -fx-tick-length: 10;
+    -fx-minor-tick-length: 4;
+}
+.axis-label {
+    -fx-text-fill: #FFFFFF;
+
+}
+
+.chart-series-line {    
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.chart-plot-background {
+    -fx-background-color:#353535;
+}
+.slider .axis { 
+    -fx-tick-label-font:bolder;
+    -fx-tick-length: 15;
+
+
+}
+
+
+.slider .thumb {
+    -fx-pref-height: 1;
+    -fx-pref-width: 1;
+    -fx-background-color: transparent;
+}
+.radio-button {
+    -fx-font-family: "Arial";
+    -fx-font-size: 12;
+    -fx-text-fill: lightgoldenrodyellow;
+    -fx-padding: 20 0 10 0;
+    -fx-border-radius: 20 10 20 30;
+}
+
+
+.radio-button {
+-fx-font-family: "Arial";
+-fx-font-size: 14;
+-fx-text-fill: lightgoldenrodyellow;
+ -fx-padding: 20 0 10 0;
+
+ -fx-border-radius: 20 10 20 30;}
+
